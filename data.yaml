@@ -1,0 +1,10 @@
+# Dataset configuration untuk YOLO
+path: .  # Root direktori dataset (relatif terhadap folder proyek)
+train: training/images  # Gambar untuk training
+val: testing/images     # Gambar untuk validasi
+test: testing/images    # Gambar untuk testing (opsional)
+
+# Jumlah dan daftar kelas
+nc: 1
+names:
+  0: burung
